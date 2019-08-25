@@ -1,0 +1,39 @@
+.about-us {
+	background-image: url('../img/bg.svg');
+	background-size: cover;
+	background-position: center;
+
+	min-height: 1332px;
+	padding-top: 140px;
+
+	&__h2 {
+		font-size: 4.8rem;
+		font-weight: 400;
+		color: $white;
+
+		margin-bottom: 10px;
+	}
+
+	&__p {
+		font-size: 1.5rem;
+		color: $grey;
+	}
+
+	&--flex-end {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}	
+
+	&__2012 {
+		padding-top: 15px;
+	}
+
+	&__2013 {
+		padding-top: 115px;
+	}
+
+	&__2014 {
+		padding-top: 105px;
+	}
+}

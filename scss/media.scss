@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+	.about-us--flex-end {
+		display: block;
+	}
+
+	.about-us {
+		background-position: 35%;
+	}
+}
+
+@media (max-width: 768px) {
+	.team__container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.team__man--center {
+		align-self: auto;
+	}
+
+	.team__man {
+		margin-bottom: 40px;
+	}
+
+}
+
+@media (max-width: 1200px) {
+	.service-icons {
+		flex-direction: column;
+	}
+
+	.service-icons__cont {
+		margin-bottom: 40px;
+	}
+
+	.service__one-p {
+		margin-bottom: 150px;
+	}
+
+	.service-icons__cont-last {
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 992px) {
+		.form__icons {
+		margin-bottom: 40px;
+	}
+
+	.icons__media {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.form__head-p {
+		margin-bottom: 40px;
+	}
+}

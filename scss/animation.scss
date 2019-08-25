@@ -1,0 +1,23 @@
+@keyframes moveDown55 {
+	0% {
+		opacity: 0;
+		transform: translateY(-55px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes moveDown20 {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
